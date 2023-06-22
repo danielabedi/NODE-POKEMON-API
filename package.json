@@ -1,0 +1,20 @@
+{
+  "name": "node-pokemon-api",
+  "version": "1.0.0",
+  "description": "an awesome API Rest to handle some pokemons.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Daniel abedi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
