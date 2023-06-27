@@ -1,10 +1,10 @@
 const pokemons = [
     {
         id: 1,
-        name: "Grouppix",
+        name: "Bulbizarre",
         hp: 25,
         cp: 5,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
         types: ["plante", "poison"],
         created: new Date()
     },
@@ -13,7 +13,7 @@ const pokemons = [
         name: "Salamèche",
         hp: 28,
         cp: 6,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
         types: ["Feu"],
         created: new Date()
     },
@@ -22,7 +22,7 @@ const pokemons = [
         name: "Carapuce",
         hp: 21,
         cp: 4,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
         types: ["Eau"],
         created: new Date()
     },
@@ -31,7 +31,7 @@ const pokemons = [
         name: "Aspicot",
         hp: 16,
         cp: 2,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
         types: ["insecte", 'poison  '],
         created: new Date()
     },
@@ -40,7 +40,7 @@ const pokemons = [
         name: "Roucool",
         hp: 30,
         cp: 7,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
         types: ["Normal", "Vol"],
         created: new Date()
     },
@@ -49,7 +49,7 @@ const pokemons = [
         name: "Rattata",
         hp: 18,
         cp: 6,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
         types: ["Normal"],
         created: new Date()
     },
@@ -58,7 +58,7 @@ const pokemons = [
         name: "Piafabec",
         hp: 14,
         cp: 5,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
         types: ["Normal", "Vol"],
         created: new Date()
     },
@@ -67,7 +67,7 @@ const pokemons = [
         name: "Abo",
         hp: 16,
         cp: 4,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
         types: ["Poison"],
         created: new Date()
     },
@@ -76,7 +76,7 @@ const pokemons = [
         name: "Pikachu",
         hp: 17,
         cp: 8,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
         types: ["Feu"],
         created: new Date()
     },
@@ -85,7 +85,7 @@ const pokemons = [
         name: "Pikachu",
         hp: 17,
         cp: 8,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
         types: ["Feu"],
         created: new Date()
     },
@@ -94,7 +94,7 @@ const pokemons = [
         name: "Pikachu",
         hp: 17,
         cp: 8,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
         types: ["Feu"],
         created: new Date()
     },
@@ -103,7 +103,7 @@ const pokemons = [
         name: "Grouppix",
         hp: 17,
         cp: 8,
-        Picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
         types: ["Feu"],
         created: new Date()
     }
