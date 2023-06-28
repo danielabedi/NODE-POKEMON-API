@@ -1,5 +1,5 @@
-module.exports = (Sequelize, DataTypes) => {
-    return Sequelize.define('Pokemon', {
+module.exports = (sequelize, DataTypes) => {
+    return sequelize.define('Pokemon', {
         id: {
             type: DataTypes.INTEGER,
             primaryKey: true,
@@ -23,11 +23,22 @@ module.exports = (Sequelize, DataTypes) => {
         },
         types: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            get() {
+                const typesValue = this.getDataValue('types');
+                return typesValue ? typesValue.split(',') : [];
+            },
+            set(types) {
+                if (Array.isArray(types)) {
+                    this.setDataValue('types', types.join());
+                } else {
+                    this.setDataValue('types', '');
+                }
+            }
         }
     }, {
         timestamps: true,
         createdAt: 'created',
         updatedAt: false
-   })
-}
+   });
+};

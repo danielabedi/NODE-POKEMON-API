@@ -5,7 +5,7 @@ const pokemons = [
         hp: 25,
         cp: 5,
         picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-        types: ["plante", "poison"],
+        types: ["Plante", "Poison"],
         created: new Date()
     },
     {
@@ -32,7 +32,7 @@ const pokemons = [
         hp: 16,
         cp: 2,
         picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
-        types: ["insecte", 'poison  '],
+        types: ["Insecte", "Poison"],
         created: new Date()
     },
     {
@@ -76,26 +76,26 @@ const pokemons = [
         name: "Pikachu",
         hp: 17,
         cp: 8,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
-        types: ["Feu"],
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+        types: ["Électrique"],
         created: new Date()
     },
     {
         id: 10,
-        name: "Pikachu",
-        hp: 17,
-        cp: 8,
-        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
-        types: ["Feu"],
+        name: "Ronflex",
+        hp: 35,
+        cp: 5,
+        picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/143.png",
+        types: ["Normal"],
         created: new Date()
     },
     {
         id: 11,
-        name: "Pikachu",
+        name: "Pikachu 11",
         hp: 17,
         cp: 8,
         picture: "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
-        types: ["Feu"],
+        types: ["Électrique"],
         created: new Date()
     },
     {

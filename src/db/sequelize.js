@@ -2,15 +2,15 @@ const { Sequelize, DataTypes } = require('sequelize')
 const PokemonModel = require('../models/pokemon')
 const pokemons = require('./mock-pokemon')
 
-const sequelize = new Sequelize('pokedex', 'username', 'password', {
-    host: '192.168.64.2',
+const sequelize = new Sequelize('pokedex', 'root', '', {
+    host: 'localhost',
     dialect: 'mariadb',
     dialectOptions: {
-        timezone: 'Etc/GMT-2'
+        timezone: 'Etc/GMT-2',
     },
-    logging: true
+    logging: false
 })
- 
+
 const Pokemon = PokemonModel(sequelize, DataTypes)
 
 const initDb = () => {
@@ -21,10 +21,10 @@ const initDb = () => {
                 hp: pokemon.hp,
                 cp: pokemon.cp,
                 picture: pokemon.picture,
-                types: pokemon.types.join()
+                types: pokemon.types
             }).then(pokemon => console.log(pokemon.toJSON()))
         })
-        console.log('la base de données a bien été initialisée !')
+        console.log('La base de données a bien été initialisée !')
     })
 }
 
